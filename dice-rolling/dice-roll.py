@@ -95,9 +95,3 @@ for i in range(71,85,1):
 print('You will most probably finish the game at the step number '+ str(max(step_number))+
       '. The probability of finishing at this step is '+str(max(a)*100)+' %')
 
-
-# In[ ]:
-
-
-
-
