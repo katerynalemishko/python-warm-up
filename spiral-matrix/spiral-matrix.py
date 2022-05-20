@@ -69,5 +69,10 @@ else:
 
 for k in range (n):
     for m in range (n):
-        print (b[k][m],end=' ')
+        if b[k][m]<10:
+            print (b[k][m],end='   ')
+        elif b[k][m]<100:
+            print (b[k][m],end='  ')
+        else:
+            print (b[k][m],end=' ')
     print()
